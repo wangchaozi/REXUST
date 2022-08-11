@@ -1,0 +1,217 @@
+/* 全局通用设置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main {
+    background-color: rgb(236,235,238);
+    display: none;
+}
+/* 页眉 */
+.header {
+    border: 0px solid black;
+    height: 7rem;
+    width: auto;
+    text-align: center;
+    position: relative;
+}
+
+/* 这个是团队名称的css */
+.header span {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+/* logo懂得都懂 */
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-decoration: line-through;
+}
+
+/* 导航栏 */
+.nav {
+    background-color: rgb(153,168,170);
+    height: 4rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 链接 */
+.navs {
+    color: rgb(238, 232, 230);
+    background-color: rgb(153,168,170);
+    width: 100px;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 64px;
+}
+
+.navs:hover {
+    color: bisque;
+    font-size: larger;
+}
+
+/* 内容框 */
+.content {
+    height: 50rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.columnleft {
+    border-radius: 2em;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 50%;
+    margin: 1em;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+ .columnmiddle {
+    border-radius: 2em;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 2em;
+    letter-spacing: 2px;
+}
+
+
+/* 页尾 */
+.footer {
+    margin-top: 1em;
+    height: 6rem;
+    display: flex;
+}
+
+.word a {
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+    padding: 21px;
+}
+
+.word a:hover {
+    color: pink;
+    font-size: medium;
+}
+
+.button {
+    position: absolute;
+    right: 1px;
+    padding: 12px;
+}
+
+.moon {
+    display: none;
+}
+
+.photo img{
+    width: 300px;
+    height: auto;
+}
+
+/* 轮播图 */
+.lunbotu {
+    position: relative;
+    left: 25%;
+    top: 12px;
+    width: 54.3%;
+    border-radius: 2em;
+    height: 340.31px;
+    overflow: hidden;
+}
+.lunbotu ul {
+    list-style-type: none;
+    width: 10000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lunbotu ul li {
+    float: left;
+}
+.lunbotu ul li img {
+    /* position: absolute; */
+    width: 660px;
+    height: auto;
+}
+
+/* .lunbotu ul{
+    position: absolute;
+    width: 400%;
+    height: auto;
+    left: 12vw;
+}
+
+.lunbotu ul li {
+    display: inline;
+}
+
+.lunbotu ul li a img {
+    width: 38vw;
+    height: auto;
+    border-radius: 1em;
+    z-index: -1;
+} */ 
+.arrow-l,
+.arrow-r {
+    display: none;
+    width: 16px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    top: 45%;
+    color: aliceblue;
+    line-height: 27px;
+    z-index: 1;
+}
+.arrow-r {
+    position: absolute;
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    height: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.circle li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2em;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.current {
+    background-color: orange;;
+}

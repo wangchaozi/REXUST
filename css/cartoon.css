@@ -1,0 +1,199 @@
+#cartoon {
+    width: 100%;
+    height: 96vh;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 236);
+    position: relative;
+    box-sizing: border-box;
+    background-image: url("../photo/78BEFEA658F549AF8B11F27CB1344D50.png");
+    background-size: cover;
+    /* filter: blur(3px); */
+}
+/* 
+.photo1 {
+    background-image: url('../photo/16790313D85D70176EA09B3D7AEF0802.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.photo2 {
+    background-image: url('../photo/4B93F9731FDEDC99133AE8C5DC776BAD.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.photo3 {
+    background-image: url('../photo/6E4F20F929926D285D1DEB7FDB951F23.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.word3 {
+    height: 4%;
+    width: 100%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.photo4 {
+    background-image: url('../photo/78BEFEA658F549AF8B11F27CB1344D50.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.photo5 {
+    background-image: url('../photo/7D703BBD5305F16DD0523AFB4421D411.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.photo6 {
+    background-image: url('../photo/B661B1CA512F9AD73640B566B4D92DEC.png');
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    /* width: 1000px;
+    height: 1000px; */
+    /* animation-name: example;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+} */
+
+.word3 {
+    position: absolute;
+    top: 42%;
+    width: 40vw;
+    margin-left: 29%;
+    height: auto;
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 12px;
+}
+
+.top {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(221, 31, 31);
+    animation-name: top;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+.right {
+    width: 4px;
+    height: 99%;
+    float: right;
+    background-color: rgb(221, 31, 31);
+    animation-name: right;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 1px;
+    background-color: rgb(221, 31, 31);
+    animation-name: bottom;
+    animation-duration: 3.25s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+.left {
+    width: 4px;
+    height: 99%;
+    background-color: rgb(221, 31, 31);
+    animation-name: left;
+    animation-duration: 5s;
+}
+
+@keyframes top {
+    from {
+        width: 0%;
+        height: 0%;
+    }
+    to {
+        width: 100%;
+        height: 4px;
+    }
+}
+
+@keyframes right {
+    from {
+        width: 0px;
+        height: 0%;
+    }
+    to {
+        width: 4px;
+        height: 99%;
+    }
+}
+
+@keyframes bottom {
+    from {
+        width: 0%;
+        height: 0px;
+    }
+    to {
+        width: 100%;
+        height: 4px;
+    }
+}
+
+@keyframes left {
+    from {
+        width: 0px;
+        height: 0%;
+    }
+    to {
+        width: 4px;
+        height: 99%;
+    }
+}
+
+.but {
+    text-align: center;
+    line-height:60px;
+    color: rgb(255, 255, 255);
+    background-image: none;
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    background-color: rgb(157, 76, 76);
+    border-radius: 10%;
+    top: 56%;
+    left: 45%;
+    display: none;
+}
+.but a {
+    text-decoration: none;
+    color: beige;
+}
