@@ -1,0 +1,111 @@
+.members {
+    width: 100%;
+    height: 1200px;
+    background-image: url("../photo/members01.png");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    /* flex-direction: column; */
+}
+
+@media screen and (max-width: 600px) {
+    .members {
+        height: 2100px;
+    }
+}
+
+.LeoRandom {
+    /* border-radius: 40px; */
+    display: flex;
+    font-size: 12px;
+    /* flex: 1; */
+    letter-spacing: 0.3em;
+    /* width: 50%; */
+    width: auto;
+    height: auto;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid salmon;
+    border-radius: 12px;
+}
+img {
+
+    width: 100px;
+    border-radius: 50px;
+}
+
+.moon {
+    display: flex;
+    font-size: 12px;
+    /* flex: 1; */
+    letter-spacing: 0.3em;
+    /* width: 50%; */
+    width: auto;
+    height: auto;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid salmon;
+    border-radius: 12px;
+}
+
+
+.Cccting {
+    display: flex;
+    font-size: 12px;
+    /* flex: 1; */
+    letter-spacing: 0.3em;
+    /* width: 50%; */
+    width: auto;
+    height: auto;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid salmon;
+    border-radius: 12px;
+}
+
+
+.Too_Be {
+    display: flex;
+    font-size: 12px;
+    /* flex: 1; */
+    letter-spacing: 0.5em;
+    /* width: 50%; */
+    width: auto;
+    height: auto;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid salmon;
+    border-radius: 12px;
+}
+
+.Silhouette {
+    display: flex;
+    font-size: 12px;
+    /* flex: 1; */
+    letter-spacing: 0.3em;
+    /* width: 50%; */
+    width: auto;
+    height: auto;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid salmon;
+    border-radius: 12px;
+}

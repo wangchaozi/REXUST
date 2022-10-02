@@ -1,0 +1,40 @@
+.main {
+    background-image: url("../photo/scenery03.png");
+    height: auto;
+    color: rgb(199, 206, 211);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.content {
+    font-size: 42px;
+    color: aquamarine;
+}
+
+.requirement {
+    display: flex;
+    font-size: 12px;
+    /* flex: 1; */
+    letter-spacing: 0.3em;
+    width: 50%;
+    /* width: auto; */
+    height: auto;
+    backdrop-filter: blur(3px);
+    color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(124, 39, 221);
+    border-radius: 12px;
+    font-size: 56px;
+}
+.tips {
+    color: pink;
+    font-size: 32px;
+}
